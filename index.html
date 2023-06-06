@@ -1,16 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hi this is shrestha</title>
+        <style>
+            
+            body h1{
+             font-family: Arial, Helvetica, sans-serif;   
+             padding: 0%;
+             text-align: center;
+            }
+            header{
+                background-color: blanchedalmond;
+                padding: 0px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+                
+            }
+            nav ul{
+              list-style-type: none;
+              padding: 10;
+              list-style-type: armenian;
+              font-style: italic;
+            }
+            section::after{
+             content: "";
+             display: table;
+             clear: both;
+            }
+            footer{
+                background-color: darksalmon;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            aside{
+                width: 30%;
+                padding-left: 15px;
+                margin-left: 15px;
+                float: right;
+                font-style: italic;
+                background-color: azure;
+            }
+            details > summary {
+                padding: 4px;
+                width: 200px;
+                background-color: coral;
+                border: none;
+                box-shadow: 1px 1px 2px;
+                cursor: pointer;
+            }
+
+            details > p {
+                background-color: blanchedalmond;
+                padding: 4px;
+                margin: 0;
+                box-shadow: 1px 1px 2px;
+            }
+            
+        </style>
     </head>
     <body>
-        <div>
-        <h1 style="color:aqua;">This is my first project</h1>
-        <p style ="color:red;"><i>I have currently joined BMS and my department is web</i></p>
+        
+        <h1 style="color:red;"> Bookmyshow</h1>
+        <details>
+            <summary>About</summary>
+            <p>
+                The BookmyShow.com website ("Website") is an internet based entertainment ticketing portal owned and operated by Bigtree Entertainment Private Limited ("Bigtree"), a company incorporated under the laws of India, with its registered office at Gr.
+
+            </p>
+        </details>
+        <p style ="color:blue;"><i>I have currently joined BMS and my department is web</i></p>
         <strong>This is important</strong>
         <blockquote cite="http://www.worldwildlife.org/who/index.html">
             For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
             </blockquote>
-        </div>
+       <header>
+        <h2>Offices</h2>
+       </header>
+       <section>
+        <nav>
+            <ul>
+                <li><a href="#">Mumbai</a></li>
+                <li><a href="#">Bangalore</a></li>
+                <li><a href="#">Kolkata</a></li>
+                <li><a href="#">Delhi</a></li>
+            </ul>
+        </nav>
+        
+        <aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+       </section>
+       <footer>
+        <p>Footer</p>
+       </footer>
     </body>
 </html>
